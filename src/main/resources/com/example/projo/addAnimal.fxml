@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #ECECE7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projo.AddAnimal">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #ECECC0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="24.0" layoutY="15.0" text="ADD ANIMAL">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="264.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="X" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="22.0" layoutY="74.0" text="Name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="100.0" layoutY="71.0" prefHeight="25.0" prefWidth="170.0" />
+      <TextField layoutX="100.0" layoutY="111.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="22.0" layoutY="114.0" text="Group ID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="156.0" text="Group Name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="100.0" layoutY="153.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="22.0" layoutY="197.0" text="Track ID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="100.0" layoutY="194.0" prefHeight="25.0" prefWidth="170.0" />
+      <TextField layoutX="100.0" layoutY="237.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="22.0" layoutY="240.0" text="Longitude">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="100.0" layoutY="277.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="22.0" layoutY="280.0" text="Latitude">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="33.0" layoutY="328.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="97.0" style="-fx-background-color: #E96151;" text="Save" />
+      <Button layoutX="161.0" layoutY="328.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="97.0" style="-fx-background-color: #E96151;" text="Clear" />
+   </children>
+</AnchorPane>
